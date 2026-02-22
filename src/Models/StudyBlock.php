@@ -3,7 +3,7 @@ class StudyBlock
 {
 	private $id;
 	private $sprint_day_id;
-	private $total_minutes;
+	private $total_minutes; // Sempre: 2 horas (de seg a sex)
 
 	public function __construct($id, $sprint_day_id, $total_minutes)
 	{
