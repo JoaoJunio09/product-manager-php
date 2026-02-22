@@ -2,7 +2,7 @@
 
 return [
 	'host' => 'localhost',
-	'dbname' => 'product_manager',
+	'dbname' => 'codesprint',
 	'user' => 'root',
 	'password' => ''
 ];

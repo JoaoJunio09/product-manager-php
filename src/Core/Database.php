@@ -16,7 +16,7 @@ class Database
 			self::$connection = new PDO(
 				"mysql:host={$config['host']};dbname={$config['dbname']}",
 				$config['user'],
-				$config['password']
+				password: $config['password']
 			);
 
 			self::$connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
